@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <nav>Navbar</nav>
+        <div className="xl:max-w-7xl mx-auto">{children}</div>
+        <footer>Footer</footer>
       </body>
     </html>
   );
