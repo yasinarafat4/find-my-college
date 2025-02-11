@@ -1,7 +1,10 @@
-import Image from "next/image";
+
+import Banner from "./components/home/Banner";
 
 export default function Home() {
   return (
-    <div> <h1>Hello World</h1> </div>
+    <div>
+      <Banner />
+    </div>
   );
 }
