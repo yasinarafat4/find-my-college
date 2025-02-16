@@ -30,7 +30,7 @@ export default function NavSearch() {
         {/* Logo */}
         <a aria-label="Logo" href="/" className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/assets/fmc.png"
             alt="Logo"
             height={50}
             width={150}
