@@ -28,17 +28,6 @@ export default function NavSearch() {
       {/* Navbar */}
       <div className="flex flex-wrap justify-between items-center max-lg:gap-y-6 max-sm:gap-x-4 lg:max-w-[980px] xl:max-w-7xl px-[10px] lg:px-0 py-3 lg:py-2 mx-auto">
         {/* Logo */}
-        <a aria-label="Logo" href="/" className="flex items-center">
-          <Image
-            src="/assets/fmc.png"
-            alt="Logo"
-            height={50}
-            width={150}
-            placeholder="blur"
-            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAgAB/1h8KAAAAABJRU5ErkJggg=="
-            priority
-          />
-        </a>
 
         {/* Collapse menu for small devices */}
         <div
